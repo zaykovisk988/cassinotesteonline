@@ -5,4 +5,4 @@ from django.urls import include, path
 urlpatterns = [
     path('index/', include('index.urls')),
 ]
-#
+# 22
