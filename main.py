@@ -1,6 +1,4 @@
 # msg = 'print'
 # print(msg)
 
-git = 'rep'
-
-print(git)
+print('hello world')
