@@ -3,6 +3,6 @@ from django.urls import path
 from MainGame import views
 
 urlpatterns = [
-    path('login/', views.login.html, name='login.html'),
+    path('login/', views.login, name='login.html'),
 ]
 
