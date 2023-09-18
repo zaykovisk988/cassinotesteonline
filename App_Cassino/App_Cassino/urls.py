@@ -1,8 +1,7 @@
 from django.contrib import admin
-from django.urls import path
+from django.urls import include, path
 from MainGame import views
 
 urlpatterns = [
-    path('', views.login, name='login.html'),
+    path('index', include('index.urls')),
 ]
-
