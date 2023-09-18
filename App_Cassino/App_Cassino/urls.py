@@ -5,10 +5,3 @@ from MainGame import views
 urlpatterns = [
     path('login/', views.login, name='login'),
 ]
-
-
-urlpatterns = [
-    path('login/', views.login_view, name='login'),
-    path('registro/', views.registro_view, name='registro'),
-    
-]
