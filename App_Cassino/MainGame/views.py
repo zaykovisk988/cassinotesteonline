@@ -8,4 +8,4 @@ def index(request):
 
 
 def login(request):
-    return HttpRequest, (login.html)
+    return HttpRequest, ('login.html')
