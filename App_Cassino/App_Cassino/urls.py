@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.urls import path
-from App_Cassino import views
+from MainGame import views
 
 urlpatterns = [
-    path('', views.login.html, name='login'),
+    path('login/', views.login.html, name='login'),
 ]
