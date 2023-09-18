@@ -6,4 +6,3 @@ from MainGame import views
 urlpatterns = [
     path('index/', include('index.urls')),
 ]
-# sss5
